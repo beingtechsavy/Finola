@@ -1,0 +1,23 @@
+# Secrets - NEVER commit this
+.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files (large CSV)
+data/*.csv
+
+# Planning docs (internal)
+planning docs/
+
+# OS files
+.DS_Store
+Thumbs.db
